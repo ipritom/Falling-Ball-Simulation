@@ -30,8 +30,8 @@ def Y(y):
     return int((c_y-y))
 #create visible axis
 def axis():
-    p.draw.line(gameDisplay,ash,[X(0),Y(c_y)],[X(0),Y(-c_y)],1) #x-axis
-    p.draw.line(gameDisplay,ash,[X(-c_x),Y(0)],[X(c_x),Y(0)],1) #y-axis
+    #p.draw.line(gameDisplay,ash,[X(0),Y(c_y)],[X(0),Y(-c_y)],1) #y-axis
+    p.draw.line(gameDisplay,ash,[X(-c_x),Y(0)],[X(c_x),Y(0)],3) #x-axis
 def ball(x,y,radi,clk):
     global t_state
     global t
